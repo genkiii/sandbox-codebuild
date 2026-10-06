@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Hello fro AWS CodeBuild!"
+      - echo "Current directory"
+      - pwd
+      - echo "List files:"
+      - ls -la
